@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Table -->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Ayush</td>
+        <td>22</td>
+        <td>ayush@acciojob.com</td>
+      </tr>
+      <tr>
+        <td>Ayush</td>
+        <td>22</td>
+        <td>ayush@acciojob.com</td>
+      </tr>
+      <tr>
+        <td>Ayush</td>
+        <td>22</td>
+        <td>ayush@acciojob.com</td>
+      </tr>
+    </table>
+
+    <br />
+    <hr />
+
+    <!-- rowspan -->
+    <table border="1">
+      <tr>
+        <th>Product Name</th>
+        <th>Cost</th>
+        <th>Quantity</th>
+      </tr>
+
+      <tr>
+        <td>Apple Iphone 15</td>
+        <td rowspan="3">79999</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Apple Iphone 14 plus</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Apple Iphone 15 pro</td>
+        <td>5</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+
+    <!-- rowspan, colspan -->
+    <table border="1">
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td colspan="2" rowspan="2">1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+    <br />
+    <hr />
+
+    <!-- thead, tbody, tfoot -->
+    <table border="1">
+      <caption>
+        I phone bills
+      </caption>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Cost</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apple Iphone 15</td>
+          <td>2</td>
+          <td>79999</td>
+        </tr>
+        <tr>
+          <td>Apple Iphone 14 plus</td>
+          <td>2</td>
+          <td>79999</td>
+        </tr>
+        <tr>
+          <td>Apple Iphone 15 pro</td>
+          <td>5</td>
+          <td>79999</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td>Rs. 8,79,999</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br />
+    <hr />
+
+    <!-- Scope -->
+    <table border="1">
+      <caption>
+        Time Table
+      </caption>
+      <tr>
+        <th scope="col row">Day/part of the day</th>
+        <th scope="col">Morning</th>
+        <th scope="col">Evening</th>
+        <th scope="col">Night</th>
+      </tr>
+      <tr>
+        <th scope="row">Monday</th>
+        <td>Poha</td>
+        <td>Tea and biscuits</td>
+        <td>Dal Makhni</td>
+      </tr>
+      <tr>
+        <th scope="row">Tuesday</th>
+        <td>Poha</td>
+        <td>Tea and biscuits</td>
+        <td>Dal Makhni</td>
+      </tr>
+      <tr>
+        <th scope="row">wednesday</th>
+        <td>Poha</td>
+        <td>Tea and biscuits</td>
+        <td>Dal Makhni</td>
+      </tr>
+      <tr>
+        <th scope="row">Thursday</th>
+        <td>Poha</td>
+        <td>Tea and biscuits</td>
+        <td>Dal Makhni</td>
+      </tr>
+    </table>
+  </body>
+</html>
