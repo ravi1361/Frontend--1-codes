@@ -1,0 +1,18 @@
+/* inline */
+.eg1 {
+      display: inline;
+      width: 300px;
+      height: 300px;
+      margin: 30px;
+      background-color: blue;
+  }
+  
+  /* block */
+  .eg2 {
+      display:inline-block;
+      width: 300px;
+      height: 300px;
+      margin: 30px;
+      background-color: red;
+  }
+  
